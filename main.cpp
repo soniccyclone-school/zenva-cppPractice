@@ -2,6 +2,12 @@
 
 // This is a comment
 
+using namespace std;
+
 int main() {
-    std::cout << "Hello World!";
+    string name;
+    string age;
+    cin >> name;
+    cin >> age;
+    cout << "Hi my name is " << name <<" and I am " << age << " years old";
 }
